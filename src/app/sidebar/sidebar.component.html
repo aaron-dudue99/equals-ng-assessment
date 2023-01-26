@@ -1,0 +1,22 @@
+<div class="sidebar">
+  <div>
+    <div class="logo">
+      <h1>Dinner4U</h1>
+    </div>
+    <div class="links-section">
+      <div *ngFor="let link of links" class="navlinks">
+        <p>
+          {{ link.title }}
+        </p>
+
+        <a *ngFor="let linkInner of link.links">
+          <span
+            class="material-symbols-outlined"
+            >{{ linkInner.icon }}</span
+          >
+          {{ linkInner.name }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

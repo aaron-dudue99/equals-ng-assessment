@@ -1,27 +1,22 @@
-# EqualsNgAssessment
+# Dinner4U Restaurant App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+This project was developed as a skill assessment for Angular frontend. The project entails creating an angular app for a startup Dinner4U which offers a dinner hosting platform where one registers as a host and turns their home into a restaurant.
 
-## Development server
+Technologies used in this project include Angular for main app frontend, JSON server for spinning up a mockup server for the data that is needed by the application, SCSS for app styling 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to get the code and run it
 
-## Code scaffolding
+Clone the github repository using the command `git clone https://github.com/aaron-dudue99/equals-ng-assessment` in your terminal and save it on your local disk.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+After cloning run `yarn` to install all dependencies for the project.
+
+
+
+After dependencies have all installed run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in your browser and the application will load and display. The application will automatically reload if you change any of the source files.
+
+
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
