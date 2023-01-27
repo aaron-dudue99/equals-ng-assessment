@@ -1,0 +1,23 @@
+<div class="login-container">
+    <div class="login">
+        <h2>Login</h2>
+        <p>Enter your details to login</p>
+
+        <form [formGroup]="loginForm" (ngSubmit)="login()" class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" formControlName="username" id="username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" formControlName="password" id="password">
+            </div>
+
+            <button class="btn">Login</button>
+
+            <a routerLink="/signup" class="route-link">New User? Click here to Register</a>
+        </form>
+
+
+    </div>
+</div>
