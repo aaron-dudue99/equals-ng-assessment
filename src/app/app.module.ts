@@ -8,13 +8,17 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { HostDashboardComponent } from './host-dashboard/host-dashboard.component';
+import { GuestDashboardComponent } from './guest-dashboard/guest-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    HostDashboardComponent,
+    GuestDashboardComponent
   ],
   imports: [
     BrowserModule,

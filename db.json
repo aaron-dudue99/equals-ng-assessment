@@ -8,5 +8,30 @@
       "password": "aaron123",
       "id": 1
     }
+  ],
+
+  "dinners": [
+    {
+      "title": "Grace Res",
+      "menu": "Spaghetti and Hotdogs",
+      "seats": 6,
+      "reserved": false,
+      "status": "upcoming",
+      "host": {
+        "name": "Duduzile Aaron",
+        "mobile": "04427113"
+      }
+    },
+    {
+      "title": "Grace Rest",
+      "menu": "Spaghetti and Hotdogs",
+      "seats": 6,
+      "reserved": true,
+      "status": "active",
+      "host": {
+        "name": "Duduzile Aaron",
+        "mobile": "04427113"
+      }
+    }
   ]
 }
