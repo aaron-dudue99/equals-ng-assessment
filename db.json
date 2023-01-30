@@ -9,7 +9,6 @@
       "id": 1
     }
   ],
-
   "dinners": [
     {
       "title": "Grace Res",
@@ -20,7 +19,8 @@
       "host": {
         "name": "Duduzile Aaron",
         "mobile": "04427113"
-      }
+      },
+      "id": 1
     },
     {
       "title": "Grace Rest",
@@ -31,7 +31,27 @@
       "host": {
         "name": "Duduzile Aaron",
         "mobile": "04427113"
-      }
+      },
+      "id": 2
+    },
+    {
+      "title": "Sadza Tripe Combo",
+      "menu": [
+        "Sadza",
+        " Tripe",
+        " Veggies",
+        " Chilli",
+        " Canned Drink",
+        " Distilled Water"
+      ],
+      "seats": 2,
+      "reserved": false,
+      "status": "upcoming",
+      "host": {
+        "name": "Aaron",
+        "mobile": "Dudue"
+      },
+      "id": 3
     }
   ]
 }

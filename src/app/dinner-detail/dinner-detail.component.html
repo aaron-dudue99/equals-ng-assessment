@@ -1,0 +1,10 @@
+<div class="detail-container">
+    <div *ngIf="dinner">
+        <h2>{{dinner.title | uppercase}} Details</h2>
+        <div><span>id: </span>{{dinner.id}}</div>
+        <div>
+          
+        </div>
+        <button type="button" (click)="goBack()">go back</button>
+      </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="dinner-container">
+  <div class="register">
+    <h2>Create Dinner Page</h2>
+    <p>Enter the dinner details below</p>
+
+    <form [formGroup]="createDinnerForm" (ngSubmit)="registerDinner()" class="dinner-form">
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" formControlName="name" id="name" required />
+      </div>
+
+      <div class="menu-div">
+        <p>use 'comma' , to separate menu items</p>
+      </div>
+      <div class="input-group">
+        <label for="name">Menu</label>
+        <textarea type="textarea" rows="10" cols="30" formControlName="menu" id="menu" required></textarea>
+      </div>
+
+      
+      <div class="input-group">
+        <label for="seats">Seats</label>
+        <input type="number" formControlName="seats" id="seats" required />
+      </div>
+
+      <button class="btn">Register</button>
+    </form>
+  </div>
+</div>

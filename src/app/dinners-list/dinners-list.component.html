@@ -1,0 +1,16 @@
+<div class="dinners-container">
+  <h2>My Dinners</h2>
+  <ul class="dinners">
+    <li *ngFor="let dinner of dinners">
+      <a routerLink="/detail/{{dinner.id}}"
+        [class.selected]="dinner === selectedDinner"
+        type="button"
+        (click)="onSelect(dinner)"
+      >
+        <span class="badge">{{ dinner.id }}</span>
+        <span class="name">{{ dinner.title }}</span>
+      </a>
+      <span> {{ dinner.status }}</span>
+    </li>
+  </ul>
+</div>

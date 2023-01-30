@@ -15,8 +15,8 @@ make reservations
 TODO: Make registration  page for host     ✅
 TODO: Use reactive form for signup and login ✅
 TODO: Add validation for reactive form ✅
-TODO: Design dashboard showing current active and upcoming dinners
-TODO: Create dinner page to add menu with its items
+TODO: Design dashboard showing current active and upcoming dinners✅
+TODO: Create dinner page to add menu with its items ✅
 TODO: Page to list and then view a dinner with its associated reservations
 
 TODO: Page to display all upcoming dinners

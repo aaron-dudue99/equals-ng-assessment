@@ -30,6 +30,16 @@ Technologies used in this project include Angular for main app frontend, JSON se
 
 <br>
 
+## Screenshots of pages in the app
+
+<br>
+ Host dashboard page showing all the active and upcoming dinners for a registered host.
+
+<br>
+
+
+<img src="./src/assets/Screenshot_20230129_224233.png" alt="dashboard" />
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

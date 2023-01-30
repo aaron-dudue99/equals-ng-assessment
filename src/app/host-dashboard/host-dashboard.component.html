@@ -3,11 +3,32 @@
     <h2>Hie 👋, <span class="name">Aaron Dudue</span></h2>
   </div>
 
-  <div class="active">
-    <h3>Active Dinners</h3>
-    <p>{{dinners}}</p>
+  <div class="active dinners">
+    <h3>Active Dinners <span class="material-symbols-outlined green">
+      ramen_dining
+      </span></h3>
+    <div class="dinners-div" >
+      <div class="dinners-card" *ngFor = "let dinner of activeDinners">
+        <span>
+          🥣
+        </span>
+        <h4>{{dinner.title}}</h4>
+        <p class="menu">{{dinner.menu}}</p>
+      </div>
+    </div>
   </div>
-  <div class="upcoming">
-    <h3>Upcoming Dinners</h3>
+  <div class="upcoming dinners">
+    <h3>Upcoming Dinners <span class="material-symbols-outlined green">
+      restaurant
+      </span></h3>
+    <div class="dinners-div" >
+      <div class="dinners-card" *ngFor = "let dinner of upcomingDinners">
+        <span>
+          🥗
+        </span>
+        <h4>{{dinner.title}}</h4>
+        <p class="menu">{{dinner.menu}}</p>
+      </div>
+    </div>
   </div>
 </div>

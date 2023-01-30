@@ -8,4 +8,5 @@ export interface Dinner {
         name: string,
         mobile: string,
     }
+    id? :any,
 }

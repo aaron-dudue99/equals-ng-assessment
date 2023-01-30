@@ -22,20 +22,20 @@ export class HostDashboardComponent {
 
   getDinners() {
     this.dinnerService.getDinners().subscribe(res=> {
-      this.dinners = {...res}
+      this.dinners = res;
       console.log(this.dinners)
     })
   }
 
   getActive(): void{
     this.dinnerService.getActiveDinners().subscribe(res=> {
-      this.activeDinners = {...res}
+      this.activeDinners = res;
       console.log(this.activeDinners)
     })
   }
   getUpcoming(): void{
     this.dinnerService.getUpcomingDinners().subscribe(res=> {
-      this.upcomingDinners = {...res}
+      this.upcomingDinners = res;
       console.log(this.upcomingDinners)
     })
   }

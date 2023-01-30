@@ -1,4 +1,9 @@
 .wrapper{
+    width:100vw;
     display: grid;
     grid-template-columns: 1fr 5fr;
+
+    .right-content{
+        width: 100%;
+    }
 }

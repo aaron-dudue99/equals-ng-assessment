@@ -16,8 +16,22 @@ export class HostDinnersService {
     
   }
 
+  getDinnerById(id: any): Observable<Dinner>{
+    const url = `http://localhost:3000/dinners/?id=${id}`;
+
+    return this.http.get<Dinner[]>(url).pipe(
+      map(dinners => dinners[0])
+    )
+  }
+
   createDinner(dinner: Dinner) {
-    this.http.post<Dinner>(`http://localhost:3000/users`, dinner);
+    this.http.post<Dinner>(`http://localhost:3000/dinners`, dinner).subscribe(res=>{
+      alert('Dinner created successfully');
+      console.log(res)
+    }, err=> {
+      console.log(err)
+      alert('Dinner Creation Failed');
+    })
   }
 
   getUpcomingDinners(): Observable<Dinner[]> {
